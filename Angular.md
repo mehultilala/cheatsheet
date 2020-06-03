@@ -1,3 +1,5 @@
+## [awesome-angular](https://github.com/PatrickJS/awesome-angular)
+
 ## angular article link
   - https://indepth.dev/
   - https://angular.io/resources?category=community
@@ -52,8 +54,8 @@ Start editing to see some magic happen :)
      this.hellos.forEach(hello => console.log(hello));
   }
  ```
-  
-## Various Packages & their usage
-- awesome path - https://github.com/sindresorhus/awesome
-- subsink - library to collection subscibeption and unsubscribe using single method call in  onDestroy()
 
+## Various Packages & their usage
+- [awesome path](https://github.com/sindresorhus/awesome)
+- [awesome angular packages](https://github.com/PatrickJS/awesome-angular#third-party-components) 
+- subsink - library to collection subscibeption and unsubscribe using single method call in  onDestroy()
