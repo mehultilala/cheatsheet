@@ -12,6 +12,7 @@
   - git log --author="mehultilala"
   - git log --grep="ignore"
   - git log --pretty=format:'%cn %h'
+  - git log --pretty=format:"%ad %h by %an, %s" --date=iso | sort -r | less
 
 ## personwise commits
   - git shortlog
@@ -31,6 +32,10 @@
 ## amend commit
   - git commit --amend -m "message"
   - git commit --amend --author ="message"
+  
+  ## view commit
+  - git show
+  - git show --pretty="" --name-only #
 
 ## set remote
   - git remote set-url origin git@github.com:keshav-truckola/truckola.git
