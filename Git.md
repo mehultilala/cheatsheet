@@ -33,9 +33,15 @@
   - git commit --amend -m "message"
   - git commit --amend --author ="message"
   
-  ## view commit
-  - git show
+## view commit
+  - git show #
   - git show --pretty="" --name-only #
+  
+## stash commands
+  - git stash save "custom_name"
+  - git stash list
+  - git stash pop stash@{n}
+  - git stash apply stash@{n}
 
 ## set remote
   - git remote set-url origin git@github.com:keshav-truckola/truckola.git
@@ -62,7 +68,7 @@
   - git pull origin master
   - git checkout -b branch_name //create local branch
   - git commit -am 'message'
-  - git push origim branch_name
+  - git push origin branch_name
 
 ## checkout existing remote branch and push changes flow
   - git pull
