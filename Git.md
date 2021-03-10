@@ -40,6 +40,9 @@
 ## stash commands
   - git stash save "custom_name"
   - git stash list
+  - git stash show
+  - git stash show -p
+  - git stash show -p stash@{n}
   - git stash pop stash@{n}
   - git stash apply stash@{n}
 
